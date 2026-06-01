@@ -2,7 +2,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("GabelstaplerKameraMonitor")]
-[assembly: AssemblyDescription("Orangefarbener Kamera-Monitor fuer Gabelstapler")]
+[assembly: AssemblyDescription("German forklift USB camera monitor with recording and adjustable fork-tip guide line")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("GabelstaplerKameraMonitor")]
@@ -10,6 +10,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
-[assembly: Guid("7D733AF8-8F7B-4B12-80F6-57E568991AF4")]
+[assembly: Guid("1A55E7B9-6F41-4C65-9C4C-7F5E3E2E1A21")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

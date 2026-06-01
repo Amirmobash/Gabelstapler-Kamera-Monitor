@@ -1,0 +1,3 @@
+msbuild GabelstaplerKameraMonitor.sln /t:Clean,Build /p:Configuration=Release /p:Platform="Any CPU"
+
+signtool sign /fd SHA256 /f "certificates\gabelstapler-camera.pfx" /tr http://timestamp.digicert.com /td SHA256 "bin\Release\GabelstaplerKameraMonitor.exe"
