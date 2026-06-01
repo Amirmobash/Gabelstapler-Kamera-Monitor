@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build release",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "build.bat",
+        "Release"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build debug",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "build.bat",
+        "Debug"
+      ],
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "run release",
+      "type": "shell",
+      "command": "${workspaceFolder}\\bin\\Release\\GabelstaplerKameraMonitor.exe",
+      "dependsOn": "build release",
+      "problemMatcher": []
+    }
+  ]
+}
