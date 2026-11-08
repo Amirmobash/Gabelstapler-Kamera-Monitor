@@ -1,5 +1,13 @@
 # Gabelstapler Camera Monitor
 
+
+<p align="center">
+  <img src="docs/images/forklift-usb-camera-monitor-safety-view.svg" alt="Forklift operator USB camera monitor desktop view for fork position assistance" width="960" />
+</p>
+
+<sub>Illustrative engineering overview (not a photograph, measured CAD rendering, or independently verified build).</sub>
+
+
 A simple Windows desktop application for showing a live USB camera feed from a forklift.
 
 This project was built for a practical use case: a webcam is mounted near the forklift fork, so the driver can see the fork position more clearly while working. The interface is designed in German and uses an orange industrial-style theme to match the forklift environment.
